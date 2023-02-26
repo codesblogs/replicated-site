@@ -15,7 +15,7 @@ const Home = () => {
                     </div>
                     <div className='rightSide'>
                         <div className='topRight'>
-                            <TitleRight />
+                            <TitleRight/>
                         </div>
                         <div className='middileRght'>
                             <RightCenter />
