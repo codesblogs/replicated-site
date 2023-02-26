@@ -1,0 +1,285 @@
+.cards{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+.card_1{
+    height: 175px;
+    width: 270px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 17rem;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#humidity{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -155px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    transform: scale(2);
+    top: 145px;
+    left: 105px;
+}
+p{
+    font-size: 7px;
+}
+
+.card_2{
+    height: 175px;
+    width: 250px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 17rem;
+    left: 338px;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#wind{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -175px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes_1{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    transform: scale(2);
+    top: 145px;
+    left: 75px;
+}
+p{
+    font-size: 7px;
+}
+
+.card_3{
+    height: 175px;
+    width: 250px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 17rem;
+    left: 615px;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#precipitation{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -110px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes_1{
+    position: absolute;
+    display: flex;
+    gap: 7px;
+    transform: scale(2);
+    top: 145px;
+    left: 85px;
+}
+p{
+    font-size: 7px;
+}
+
+/* check */
+.card_4{
+    height: 175px;
+    width: 270px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 3rem;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#uvIndex{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -130px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes__1{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    transform: scale(2);
+    top: 145px;
+    left: 80px;
+}
+p{
+    font-size: 7px;
+}
+
+.card_5{
+    height: 175px;
+    width: 250px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 3rem;
+    left: 338px;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#thermo{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -145px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes__1{
+    position: absolute;
+    display: flex;
+    transform: scale(2);
+    top: 145px;
+    left: 75px;
+}
+p{
+    font-size: 7px;
+}
+
+.card_6{
+    height: 175px;
+    width: 250px;
+    border-radius: 2rem;
+    background: #fff;
+    position: absolute;
+    bottom: 3rem;
+    left: 615px;
+}
+.section{
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#rain{
+    color: #5c9ce5;
+    border: .5px solid grey;
+    border-radius: .5rem;
+    padding: 4px;
+    background-color: rgb(238, 233, 233);
+    position: absolute;
+    right: -90px
+}
+.output_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.boxes__1s{
+    position: absolute;
+    display: flex;
+    transform: scale(2);
+    top: 145px;
+    left: 85px;
+}
+p{
+    font-size: 7px;
+}

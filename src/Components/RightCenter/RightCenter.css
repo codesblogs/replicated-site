@@ -1,0 +1,42 @@
+.rightCenter{
+    align-items: center;
+    height: 30vh;
+    margin: 55px 25px 30px 10px;
+}
+
+.container{
+    height: 17rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.leftHeader{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    justify-content: space-around
+}
+p{
+    font-size: 12px;
+}
+.centerHeader{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+}
+.rightHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    right: 75px;
+}
+
+.graph__Representation{
+    transform: scale(0.67);
+    position: absolute;
+    top: 165px;
+    right: -80px;
+
+}
