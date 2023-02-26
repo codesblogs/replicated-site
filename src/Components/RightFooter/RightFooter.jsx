@@ -83,7 +83,7 @@ const RightFooter = () => {
           <h4>UV Index</h4>
           <WbSunnyIcon id='uvIndex' />
         </div>
-        <div className='output_score'><h2>1.4cm</h2></div>
+        <div className='output_score'><h2>4 medium</h2></div>
         <div className='boxes__1'>
           <div className='box__2' style={{ height: '5px', width: '8px', color: 'grey', backgroundColor: '#5c9ce5' }}>
             <p>0</p>
